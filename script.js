@@ -19,16 +19,19 @@ if(age < 18){
 
 
 message = `Get 20% off`
+total = price - (price * 0.2) 
 } else if (age > 64){
 
 
 message = `Get 40% off`
+total = price - (price * 0.4)
 } else {
 
 message = `You don't have any discount`
+total = price
 }
 
 console.log(message);
-
+console.log(total);
 
 
