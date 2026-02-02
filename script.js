@@ -32,6 +32,6 @@ total = price
 }
 
 console.log(message);
-console.log(total.toFixed(2));
+console.log(total.toFixed(2) + " " + `€`);
 
 
